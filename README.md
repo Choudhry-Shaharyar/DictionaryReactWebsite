@@ -1,4 +1,4 @@
-#Website that displays the definition of any word the user types
+# Website that displays the definition of any word the user types
 
 # Getting Started with Create React App
 
