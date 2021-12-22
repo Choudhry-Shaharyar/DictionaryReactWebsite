@@ -13,7 +13,7 @@
   }
 }
 input[type=submit] {
-  width: 7%;
+  width: 20%;
   height: 80%;
   background-color: #000000;
    /* #4CAF50; */
@@ -22,14 +22,14 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   margin: 8px 0;
-  
   border-radius: 4px;
   cursor: pointer;
   /* border: 2px solid rgb(0, 0, 0); */
-  transition: border-color 0.2s, background-color 0.2s, color 0.2s
+  transition: border-color 0.2s, background-color 0.2s, color 0.2s;
+  flex: auto;
 }
 input[type=submit]:hover{
-  width: 7%;
+  width: 20%;
   background-color: green;
   border: 2px solid white;
   color: white;
@@ -43,14 +43,67 @@ input[type=text], select {
   border: 3px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
+  flex: auto;
 }
-/* input[type=submit]:hover {
-  background-color: #45a049;
-} */
 
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
+  margin: 0 30%;
+}
+
+.Entry {
+  padding: 0 20%;
+}
 .App-link {
   color: #61dafb;
+}
+
+@media screen and (max-width: 680px) {
+  .flex{
+   flex-direction: column;
+   margin: 50px 50px;
+  }
+  
+  input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    /* margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    flex: auto; */
+  }
+
+  .Entry{
+    padding: 0 10%;
+  }
+
+  input[type=submit]:hover{
+    width: 80%;
+    /* background-color: green;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer; */
+  }
+  input[type=submit] {
+    width: 80%;
+     height: 80%;
+    /* background-color: #000000;
+     border:2px solid white; 
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer; 
+    /* border: 2px solid rgb(0, 0, 0);  */
+   /* transition: border-color 0.2s, background-color 0.2s, color 0.2s; */
+    /* flex: auto;   */
+  }
 }
 
 @keyframes App-logo-spin {
