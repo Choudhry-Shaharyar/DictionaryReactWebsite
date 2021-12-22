@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DictionaryReactWebsite/static/css/main.13ae27e3.chunk.css",
+    "main.css": "/DictionaryReactWebsite/static/css/main.6122eee4.chunk.css",
     "main.js": "/DictionaryReactWebsite/static/js/main.cfeac059.chunk.js",
     "main.js.map": "/DictionaryReactWebsite/static/js/main.cfeac059.chunk.js.map",
     "runtime-main.js": "/DictionaryReactWebsite/static/js/runtime-main.04903745.js",
@@ -10,14 +10,14 @@
     "static/js/3.7af38eb3.chunk.js": "/DictionaryReactWebsite/static/js/3.7af38eb3.chunk.js",
     "static/js/3.7af38eb3.chunk.js.map": "/DictionaryReactWebsite/static/js/3.7af38eb3.chunk.js.map",
     "index.html": "/DictionaryReactWebsite/index.html",
-    "static/css/main.13ae27e3.chunk.css.map": "/DictionaryReactWebsite/static/css/main.13ae27e3.chunk.css.map",
+    "static/css/main.6122eee4.chunk.css.map": "/DictionaryReactWebsite/static/css/main.6122eee4.chunk.css.map",
     "static/js/2.5c5dbfec.chunk.js.LICENSE.txt": "/DictionaryReactWebsite/static/js/2.5c5dbfec.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/DictionaryReactWebsite/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.04903745.js",
     "static/js/2.5c5dbfec.chunk.js",
-    "static/css/main.13ae27e3.chunk.css",
+    "static/css/main.6122eee4.chunk.css",
     "static/js/main.cfeac059.chunk.js"
   ]
 }
